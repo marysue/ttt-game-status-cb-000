@@ -3,7 +3,7 @@ require_relative '../lib/game_status.rb'
 describe "./lib/game_status.rb" do
   describe 'WIN_COMBINATIONS' do
     it 'defines a constant WIN_COMBINATIONS with arrays for each win combination' do
-      expect(WIN_COMBINATIONS.size).to eq(9)
+      expect(WIN_COMBINATIONS.size).to eq(8)
 
       expect(WIN_COMBINATIONS).to include_array([0,1,2])
       expect(WIN_COMBINATIONS).to include_array([3,4,5])
